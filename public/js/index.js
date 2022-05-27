@@ -15,7 +15,7 @@ const emailForm = document.querySelector("#emailForm");
 
 const toast = document.querySelector(".toast");
 
-const baseURL = "http://localhost:5500";
+const baseURL = "https://inshare-file-shares.herokuapp.com";
 const uploadURL = `${baseURL}/api/upload-file`;
 const emailURL = `${baseURL}/api/file/send`;
 
